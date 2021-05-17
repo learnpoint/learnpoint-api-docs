@@ -32,6 +32,7 @@ For sake of brevity these are only partial results intended to give an overview 
                 "LastName": "Axelsson",
                 "Username": "yhskolan.m.axelsson",
                 "Email": "testapplicant37@test.yh-antagning.se",
+                "Email2": null,
                 "MobilePhone": "073-3212555",
                 "HomeAddress": {
                     "CO": null,
