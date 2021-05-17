@@ -1,4 +1,4 @@
-LearnPoint Bulk API v2
+LearnPoint Bulk API v2.6
 ======================
 
 LearnPoint Bulk API is an HTTP based, REST-like API. Its primary purpose is to make LearnPoint data accessible to other applications. These applications can use the data to populate other systems for e.g. scheduling, resource planning or intranet access.
