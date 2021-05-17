@@ -140,3 +140,32 @@ namespace SimpleSample
     }
 }
 ```
+
+VERSION HISTORY
+---------------
+
+### ApiVersion 2.6
+
+* Added Email2 (string?) to models Student, FullStudent, StaffMember and FullStaffMember.
+
+### ApiVersion 2.5
+
+* Added Id (int) to model StudentEducationPlan.
+* Added parameter includecurrentandfuturegroupsonly (bool optional) to endpoint Groups.
+* Added parameter studentsfilter.hasactiveeducation (bool optional) to endpoint Students.
+
+### ApiVersion 2.4
+
+* Added FromDate (date?) to model StudentEducationPlanState.
+
+### ApiVersion 2.3
+
+* Added parameter datascoperootgroupid (int optional) to endpoint Students, Groups and StaffMembers.
+
+### ApiVersion 2.2
+
+* Adding GroupRoles and StudentEducationPlans.
+
+### ApiVersion 2.1
+
+* Adding version info to JSON result.
