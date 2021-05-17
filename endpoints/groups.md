@@ -21,7 +21,7 @@ For sake of brevity these are only partial results intended to give an overview 
 
 ```json
 {
-    "ApiVersion": "2.5.20000101000000",
+    "ApiVersion": "2.6.20210517102646",
     "Data": {
         "Groups": [
             {
@@ -311,6 +311,7 @@ For sake of brevity these are only partial results intended to give an overview 
                     "LastName": "Persson",
                     "Username": "yhskolan.p.persson",
                     "Email": "daniel.gidlof@viaecole.se",
+                    "Email2": null,
                     "MobilePhone": "073-XXXXXX",
                     "MayExposeMobilePhoneToStudents": true
                 },
@@ -322,6 +323,7 @@ For sake of brevity these are only partial results intended to give an overview 
                     "LastName": "Hansson",
                     "Username": "yhskolan.h.hansson",
                     "Email": "martin.vehmas@viaecole.se",
+                    "Email2": null,
                     "MobilePhone": null,
                     "MayExposeMobilePhoneToStudents": true
                 },
@@ -333,6 +335,7 @@ For sake of brevity these are only partial results intended to give an overview 
                     "LastName": "Andersson",
                     "Username": "yhskolan.a.andersson",
                     "Email": "anders.andersson@yh-skolan.se",
+                    "Email2": null,
                     "MobilePhone": null,
                     "MayExposeMobilePhoneToStudents": false
                 }
@@ -345,6 +348,7 @@ For sake of brevity these are only partial results intended to give an overview 
                     "LastName": "Axelsson",
                     "Username": "yhskolan.m.axelsson",
                     "Email": "testapplicant37@test.yh-antagning.se",
+                    "Email2": null,
                     "MobilePhone": "073-3212555",
                     "HomeAddress": {
                         "CO": null,
@@ -361,6 +365,7 @@ For sake of brevity these are only partial results intended to give an overview 
                     "LastName": "Berg",
                     "Username": "yhskolan.karin.berg",
                     "Email": "testapplicant50@test.yh-antagning.se",
+                    "Email2": null,
                     "MobilePhone": "073212555",
                     "HomeAddress": {
                         "CO": null,
@@ -377,6 +382,7 @@ For sake of brevity these are only partial results intended to give an overview 
                     "LastName": "Berg",
                     "Username": "yhskolan.stig.berg",
                     "Email": "testapplicant1@test.yh-antagning.se",
+                    "Email2": null,
                     "MobilePhone": "073-555153",
                     "HomeAddress": {
                         "CO": null,

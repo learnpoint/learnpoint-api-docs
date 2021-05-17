@@ -42,6 +42,7 @@ Student{
    LastName (string),
    Username (string?),
    Email (string?),
+   Email2 (string?),
    MobilePhone (string? optional) <i>Omitted if the client is not authorized for MobilePhone read access</i>,
    HomeAddress (StudentHomeAddress? optional) <i>Omitted if the client is not authorized for HomeAddress read access</i>,
    HomePhone (string? optional) <i>Omitted if the client is not authorized for HomeAddress read access</i>
@@ -71,6 +72,7 @@ FullStudent{
    LastName (string),
    Username (string?),
    Email (string?),
+   Email2 (string?),
    MobilePhone (string?) Omitted if the client is not authorized for MobilePhone read access,
    HomeAddress (StudentHomeAddress?) <i>Omitted if the client is not authorized for HomeAddress read access</i>,
    HomePhone (string?) <i>Omitted if the client is not authorized for HomeAddress read access</i>,
@@ -322,6 +324,7 @@ StaffMember{
    LastName (string?),
    Username (string?),
    Email (string?),
+   Email2 (string?),
    MobilePhone (string? optional) <i>Omitted if the client is not authorized for MobilePhone read access</i>,
    MayExposeMobilePhoneToStudents (boolean optional) <i>Omitted if the client is not authorized for MobilePhone read access</i>
 }
@@ -339,6 +342,7 @@ FullStaffMember{
    LastName (string?),
    Username (string?),
    Email (string?),
+   Email2 (string?),
    MobilePhone (string? optional) <i>Omitted if the client is not authorized for MobilePhone read access</i>,
    MayExposeMobilePhoneToStudents (boolean optional) <i>Omitted if the client is not authorized for MobilePhone read access</i>,
    Groups (Array[<a href="models.md#StaffMemberGroup" title="StaffMemberGroup">StaffMemberGroup</a>])
