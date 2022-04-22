@@ -21,7 +21,7 @@ For sake of brevity these are only partial results intended to give an overview 
 
 ```json
 {
-    "ApiVersion": "2.6.20210517102646",
+    "ApiVersion": "2.7.20210517102646",
     "Data": {
         "Groups": [
             {
@@ -313,7 +313,9 @@ For sake of brevity these are only partial results intended to give an overview 
                     "Email": "daniel.gidlof@viaecole.se",
                     "Email2": null,
                     "MobilePhone": "073-XXXXXX",
-                    "MayExposeMobilePhoneToStudents": true
+                    "MayExposeMobilePhoneToStudents": true,
+                    "WorkPhone": "074-XXXXXX",
+                    "MayExposeWorkPhoneToStudents": true     
                 },
                 {
                     "Id": 2,
@@ -325,7 +327,9 @@ For sake of brevity these are only partial results intended to give an overview 
                     "Email": "martin.vehmas@viaecole.se",
                     "Email2": null,
                     "MobilePhone": null,
-                    "MayExposeMobilePhoneToStudents": true
+                    "MayExposeMobilePhoneToStudents": true,
+                    "WorkPhone": null,
+                    "MayExposeWorkPhoneToStudents": true                    
                 },
                 {
                     "Id": 3,
@@ -337,7 +341,9 @@ For sake of brevity these are only partial results intended to give an overview 
                     "Email": "anders.andersson@yh-skolan.se",
                     "Email2": null,
                     "MobilePhone": null,
-                    "MayExposeMobilePhoneToStudents": false
+                    "MayExposeMobilePhoneToStudents": false,
+                    "WorkPhone": null,
+                    "MayExposeWorkPhoneToStudents": false  
                 }
             ],
             "Students": [

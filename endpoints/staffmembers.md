@@ -21,7 +21,7 @@ For sake of brevity these are only partial results intended to give an overview 
 
 ```json
 {
-    "ApiVersion": "2.6.20210517102646",
+    "ApiVersion": "2.7.20210517102646",
     "Data": {
         "StaffMembers": [
             {
@@ -35,6 +35,8 @@ For sake of brevity these are only partial results intended to give an overview 
                 "Email2": null,
                 "MobilePhone": "073-XXXXXX",
                 "MayExposeMobilePhoneToStudents": true,
+                "WorkPhone": "074-XXXXXX",
+                "MayExposeWorkPhoneToStudents": true,                
                 "Groups": [
                     {
                         "Group": {

@@ -1,4 +1,4 @@
-LearnPoint Bulk API v2.6
+LearnPoint Bulk API v2.7
 ======================
 
 LearnPoint Bulk API is an HTTP based, REST-like API. Its primary purpose is to make LearnPoint data accessible to other applications. These applications can use the data to populate other systems for e.g. scheduling, resource planning or intranet access.
@@ -99,7 +99,7 @@ namespace SimpleSample
         {
             string clientId = "yhskolan.apiclient";
             string clientSecret = "xxxxxxxxxxxxxxxxxx";
-            string requestedScopes = "learnpointbulkapi.read learnpointbulkapi.mobilephone.read learnpointbulkapi.homeaddress.read";
+            string requestedScopes = "learnpointbulkapi.read learnpointbulkapi.mobilephone.read learnpointbulkapi.workphone.read learnpointbulkapi.homeaddress.read";
             string tenantIdentifier = "yhskolan";
 
             //Get Access token
@@ -143,6 +143,11 @@ namespace SimpleSample
 
 VERSION HISTORY
 ---------------
+
+### ApiVersion 2.7
+
+* Added WorkPhone (string?) to models StaffMember and FullStaffMember.
+  * New scope for WorkPhone: learnpointbulkapi.workphone.read
 
 ### ApiVersion 2.6
 
