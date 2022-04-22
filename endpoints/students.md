@@ -186,7 +186,13 @@ For sake of brevity these are only partial results intended to give an overview 
                         "Group": {
                             "Id": 1
                         }
-                    }
+                    },
+                    "ExtendedProperties": [
+                        {
+                            "Name": "OFFICIAL_EDUCATION_CODE_MYH",
+                            "Value": "YH00123-4"
+                        }
+                    ]
                 },
                 {
                     "Id": 24,

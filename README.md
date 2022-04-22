@@ -159,6 +159,7 @@ VERSION HISTORY
 
 * Added WorkPhone (string?) to models StaffMember and FullStaffMember.
   * New scope for WorkPhone: learnpointbulkapi.workphone.read
+* Added ExtendedProperties to Group and FullGroup to expose OFFICIAL_EDUCATION_CODE_MYH
 
 ### ApiVersion 2.6
 

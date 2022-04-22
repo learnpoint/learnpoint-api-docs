@@ -225,6 +225,12 @@ For sake of brevity these are only partial results intended to give an overview 
                         "Id": 1
                     }
                 },
+                "ExtendedProperties": [
+                    {
+                        "Name": "OFFICIAL_EDUCATION_CODE_MYH",
+                        "Value": "YH00123-4"
+                    }
+                ],
                 "StaffGroupMembers": [
                     {
                         "StaffMember": {
