@@ -78,6 +78,17 @@ Where JSON data may be omitted it is noted in the model descriptions. Possible n
 ### General models
 * [ApiError](models.md#ApiError)
 
+SCOPES
+----------
+* learnpointbulkapi.read
+  * Access to Learnpoint Bulk API
+* learnpointbulkapi.mobilephone.read
+  * Access to mobile phone numbers for students and staff
+* learnpointbulkapi.workphone.read
+  * Access to work phone number for staff
+* learnpointbulkapi.homeaddress.read
+  * Access to home address for students
+
 SAMPLE CODE
 -----------
 
