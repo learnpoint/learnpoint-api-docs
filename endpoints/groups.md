@@ -461,7 +461,12 @@ For sake of brevity these are only partial results intended to give an overview 
                     "Code": "EK15_AAN",
                     "Name": "Att arbeta i näringslivet",
                     "IsInternship": false,
-                    "Points": 30
+                    "Points": 30,
+                    "Subject": {
+                        "Id": 1,
+                        "Code": "KU",
+                        "Name": "Kurser"
+                    }
                 }
             ]
         }
