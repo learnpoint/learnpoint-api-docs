@@ -460,7 +460,8 @@ For sake of brevity these are only partial results intended to give an overview 
                     "Id": 1,
                     "Code": "EK15_AAN",
                     "Name": "Att arbeta i näringslivet",
-                    "IsInternship": false
+                    "IsInternship": false,
+                    "Points": 30
                 }
             ]
         }

@@ -394,7 +394,8 @@ CourseDefinition{
    Id (int),
    Code (string),
    Name (string),
-   IsInternship (boolean)
+   IsInternship (boolean),
+   Points (int)
 }
 </pre>
 
