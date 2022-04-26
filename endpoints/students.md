@@ -22,7 +22,7 @@ For sake of brevity these are only partial results intended to give an overview 
 
 ```json
 {
-    "ApiVersion": "2.6.20210517102646",
+    "ApiVersion": "2.7.20210517102646",
     "Data": {
         "Students": [
             {
