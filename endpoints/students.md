@@ -196,8 +196,8 @@ For sake of brevity these are only partial results intended to give an overview 
                 },
                 {
                     "Id": 24,
-                    "Name": "Att arbeta i näringslivet",
-                    "Code": "EK15_AAN",
+                    "Name": "Företagsekonomi",
+                    "Code": "EK15_FEK",
                     "LifespanFrom": "2016-01-31T23:00:00Z",
                     "LifespanUntil": "2016-02-29T22:59:00Z",
                     "Category": {
