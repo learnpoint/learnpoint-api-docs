@@ -339,7 +339,7 @@ StaffMember{
    Email (string?),
    Email2 (string?),
    MobilePhone (string? optional) <i>Omitted if the client is not authorized for MobilePhone read access</i>,
-   MayExposeMobilePhoneToStudents (boolean optional) <i>Omitted if the client is not authorized for MobilePhone read access</i>
+   MayExposeMobilePhoneToStudents (boolean optional) <i>Omitted if the client is not authorized for MobilePhone read access</i>,
    WorkPhone (string? optional) <i>Omitted if the client is not authorized for WorkPhone read access</i>,
    MayExposeWorkPhoneToStudents (boolean optional) <i>Omitted if the client is not authorized for WorkPhone read access</i>,     
 }
