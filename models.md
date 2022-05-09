@@ -212,13 +212,14 @@ ParentGroupReference{
 }
 </pre>
 
-ExtendedProperty
+ExternalIdentifier
 -------------
 
 <pre>
-ExtendedProperty{
-   Name (string) <i>["OFFICIAL_EDUCATION_CODE_MYH"]</i>,
-   Value (string)
+ExternalIdentifier{
+   Value (string),
+   Context (string) <i>["https://yh-antagning.se/admission/education/id", "https://learnpoint.se/group/myh-utbildningsnummer"] Indicates the purpose for the identifier. Described with a URI.</i>,
+   GloballyUnique (boolean)
 }
 </pre>
 
@@ -234,7 +235,7 @@ FullGroup{
    LifespanUntil (date?),
    Category (<a href="models.md#GroupCategory" title="GroupCategory">GroupCategory</a>),
    ParentGroup (<a href="models.md#ParentGroupReference" title="ParentGroupReference">ParentGroupReference</a> optional) <i>Referenced groups can be found in GroupsData.Groups or GroupsData.ParentGroups. Omitted if no parent group, 
-   ExtendedProperties (<a href="models.md#ExtendedProperty" title="ExtendedProperty">ExtendedProperty</a>) <i>Omitted if no extended properties</i>,
+   ExternalIdentifiers (<a href="models.md#ExternalIdentifier" title="ExternalIdentifier">ExternalIdentifier</a>) <i>Omitted if no external identifiers</i>,
    CourseDefinition (CourseDefinitionReference optional) Omitted if the group does not reference a CourseDefinition. The course definition can be found in GroupsData.ReferenceData</i>,
    StaffGroupMembers (Array[<a href="models.md#GroupStaffMember" title="GroupStaffMember">GroupStaffMember</a>]),
    StudentGroupMembers (Array[<a href="models.md#GroupStudent" title="GroupStudent">GroupStudent</a>])

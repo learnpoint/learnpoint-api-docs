@@ -225,10 +225,16 @@ For sake of brevity these are only partial results intended to give an overview 
                         "Id": 1
                     }
                 },
-                "ExtendedProperties": [
+                "ExternalIdentifiers": [
                     {
-                        "Name": "OFFICIAL_EDUCATION_CODE_MYH",
-                        "Value": "YH00123-4"
+                        "Value": "7063D913-7020-4CBA-B898-B336ED8C7231",
+                        "Context": "https://yh-antagning.se/admission/education/id",
+                        "GloballyUnique": true
+                    },
+                    {
+                        "Value": "YH00123-2020-2",
+                        "Context": "https://learnpoint.se/group/myh-utbildningsnummer",
+                        "GloballyUnique": false
                     }
                 ],
                 "StaffGroupMembers": [
