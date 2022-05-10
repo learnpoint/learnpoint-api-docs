@@ -53,6 +53,7 @@ Where JSON data may be omitted it is noted in the model descriptions. Possible n
 * [Group](models.md#Group)
 * [GroupCategory](models.md#GroupCategory)
 * [ParentGroupReference](models.md#ParentGroupReference)
+* [ExternalIdentifier](models.md#ExternalIdentifier)
 * [FullGroup](models.md#FullGroup)
 * [GroupStaffMember](models.md#GroupStaffMember)
 * [GroupStudent](models.md#GroupStudent)
@@ -69,6 +70,7 @@ Where JSON data may be omitted it is noted in the model descriptions. Possible n
 * [FullStaffMember](models.md#FullStaffMember)
 * [StaffMemberGroup](models.md#StaffMemberGroup)
 * [StaffMemberReference](models.md#StaffMemberReference)
+* [Subject](models.md#Subject)
 
 ### Course definition models
 
