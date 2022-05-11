@@ -70,12 +70,13 @@ Where JSON data may be omitted it is noted in the model descriptions. Possible n
 * [FullStaffMember](models.md#FullStaffMember)
 * [StaffMemberGroup](models.md#StaffMemberGroup)
 * [StaffMemberReference](models.md#StaffMemberReference)
-* [Subject](models.md#Subject)
+* [StaffFunction](models.md#StaffFunction)
 
 ### Course definition models
 
 * [CourseDefinition](models.md#CourseDefinition)
 * [CourseDefinitionReference](models.md#CourseDefinitionReference)
+* [Subject](models.md#Subject)
 
 ### General models
 * [ApiError](models.md#ApiError)
@@ -161,6 +162,7 @@ VERSION HISTORY
 
 * Added WorkPhone (string?) to models StaffMember and FullStaffMember.
   * New scope for WorkPhone: learnpointbulkapi.workphone.read
+* Added StaffFunctions to FullStaffMember
 * Added ExternalIdentifiers to Group and FullGroup
 * Added Points to CourseDefinition
 * Added Subject to CourseDefinition

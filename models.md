@@ -359,6 +359,7 @@ FullStaffMember{
    MayExposeMobilePhoneToStudents (boolean optional) <i>Omitted if the client is not authorized for MobilePhone read access</i>,
    WorkPhone (string? optional) <i>Omitted if the client is not authorized for WorkPhone read access</i>,
    MayExposeWorkPhoneToStudents (boolean optional) <i>Omitted if the client is not authorized for WorkPhone read access</i>,   
+   StaffFunctions (Array[<a href="models.md#StaffFunction" title="StaffFunction">StaffFunction</a>]),
    Groups (Array[<a href="models.md#StaffMemberGroup" title="StaffMemberGroup">StaffMemberGroup</a>])
 }
 </pre>
@@ -380,6 +381,16 @@ StaffMemberReference
 <pre>
 StaffMemberReference{
    Id (int)
+}
+</pre>
+
+StaffFunction
+--------------------
+
+<pre>
+StaffFunction{
+   Id (int),
+   Name (string)
 }
 </pre>
 

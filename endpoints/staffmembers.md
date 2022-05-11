@@ -36,7 +36,13 @@ For sake of brevity these are only partial results intended to give an overview 
                 "MobilePhone": "073-XXXXXX",
                 "MayExposeMobilePhoneToStudents": true,
                 "WorkPhone": "074-XXXXXX",
-                "MayExposeWorkPhoneToStudents": true,                
+                "MayExposeWorkPhoneToStudents": true,
+                "StaffFunctions": [
+                    {
+                        "Id": 1,
+                        "Name": "Administratör"
+                    }
+                ],
                 "Groups": [
                     {
                         "Group": {
