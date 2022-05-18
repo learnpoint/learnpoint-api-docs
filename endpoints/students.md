@@ -189,7 +189,7 @@ For sake of brevity these are only partial results intended to give an overview 
                     },
                     "CustomProperties": [
                         {
-                            "Name": "MYH Utbildningsnummer",
+                            "Name": "MYh Utbildningsnummer",
                             "Value": "YH12345-2021-1"
                         }
                     ]
