@@ -70,7 +70,6 @@ Where JSON data may be omitted it is noted in the model descriptions. Possible n
 * [FullStaffMember](models.md#FullStaffMember)
 * [StaffMemberGroup](models.md#StaffMemberGroup)
 * [StaffMemberReference](models.md#StaffMemberReference)
-* [StaffFunction](models.md#StaffFunction)
 
 ### Course definition models
 

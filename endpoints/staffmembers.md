@@ -38,10 +38,7 @@ For sake of brevity these are only partial results intended to give an overview 
                 "WorkPhone": "074-XXXXXX",
                 "MayExposeWorkPhoneToStudents": true,
                 "StaffFunctions": [
-                    {
-                        "Id": 1,
-                        "Name": "Administratör"
-                    }
+                    "Administratör"
                 ],
                 "Groups": [
                     {
