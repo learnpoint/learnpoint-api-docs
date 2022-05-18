@@ -188,7 +188,7 @@ Group{
    LifespanUntil (date?),
    Category (<a href="models.md#GroupCategory" title="GroupCategory">GroupCategory</a>),
    ParentGroup (<a href="models.md#ParentGroupReference" title="ParentGroupReference">ParentGroupReference</a> optional) <i>Omitted if no parent group</i>,
-   ExternalIdentifiers (<a href="models.md#ExternalIdentifier" title="ExternalIdentifier">ExternalIdentifier</a>) <i>Omitted if no external identifiers</i>
+   CustomProperties (<a href="models.md#CustomProperty" title="CustomProperty">CustomProperty</a>) <i>Omitted if no Custom properties</i>
 }
 </pre>
 
@@ -212,14 +212,13 @@ ParentGroupReference{
 }
 </pre>
 
-ExternalIdentifier
+CustomProperty
 -------------
 
 <pre>
-ExternalIdentifier{
-   Value (string),
-   Context (string) <i>["https://yh-antagning.se/admission/education/id", "https://learnpoint.se/group/myh-utbildningsnummer"] Indicates the purpose for the identifier. Described with a URI.</i>,
-   GloballyUnique (boolean)
+CustomProperty{
+   Name (string),
+   Value (string)
 }
 </pre>
 

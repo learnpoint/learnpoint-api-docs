@@ -225,16 +225,10 @@ For sake of brevity these are only partial results intended to give an overview 
                         "Id": 1
                     }
                 },
-                "ExternalIdentifiers": [
+                "CustomProperties": [
                     {
-                        "Value": "7063D913-7020-4CBA-B898-B336ED8C7231",
-                        "Context": "https://yh-antagning.se/admission/education/id",
-                        "GloballyUnique": true
-                    },
-                    {
-                        "Value": "YH00123-2020-2",
-                        "Context": "https://learnpoint.se/group/myh-utbildningsnummer",
-                        "GloballyUnique": false
+                        "Name": "MYH Utbildningsnummer",
+                        "Value": "YH12345-2021-1"
                     }
                 ],
                 "StaffGroupMembers": [
