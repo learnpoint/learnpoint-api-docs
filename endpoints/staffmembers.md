@@ -35,8 +35,8 @@ For sake of brevity these are only partial results intended to give an overview 
                 "Email2": null,
                 "MobilePhone": "073-XXXXXX",
                 "MayExposeMobilePhoneToStudents": true,
-                "WorkPhone": "074-XXXXXX",
-                "MayExposeWorkPhoneToStudents": true,
+                "Phone2": "074-XXXXXX",
+                "MayExposePhone2ToStudents": true,
                 "StaffFunctions": [
                     "Administratör"
                 ],

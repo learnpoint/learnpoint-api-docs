@@ -86,8 +86,8 @@ SCOPES
   * Access to Learnpoint Bulk API
 * learnpointbulkapi.mobilephone.read
   * Access to mobile phone numbers for students and staff
-* learnpointbulkapi.workphone.read
-  * Access to work phone number for staff
+* learnpointbulkapi.phone2.read
+  * Access to Phone2 number for staff
 * learnpointbulkapi.homeaddress.read
   * Access to home address for students
 
@@ -112,7 +112,7 @@ namespace SimpleSample
         {
             string clientId = "yhskolan.apiclient";
             string clientSecret = "xxxxxxxxxxxxxxxxxx";
-            string requestedScopes = "learnpointbulkapi.read learnpointbulkapi.mobilephone.read learnpointbulkapi.workphone.read learnpointbulkapi.homeaddress.read";
+            string requestedScopes = "learnpointbulkapi.read learnpointbulkapi.mobilephone.read learnpointbulkapi.phone2.read learnpointbulkapi.homeaddress.read";
             string tenantIdentifier = "yhskolan";
 
             //Get Access token
@@ -159,8 +159,8 @@ VERSION HISTORY
 
 ### ApiVersion 2.7
 
-* Added WorkPhone (string?) to models StaffMember and FullStaffMember.
-  * New scope for WorkPhone: learnpointbulkapi.workphone.read
+* Added Phone2 (string?) to models StaffMember and FullStaffMember.
+  * New scope for Phone2: learnpointbulkapi.phone2.read
 * Added StaffFunctions to FullStaffMember
 * Added CustomProperties to Group and FullGroup
 * Added Points to CourseDefinition
