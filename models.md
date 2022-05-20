@@ -188,7 +188,7 @@ Group{
    LifespanUntil (date?),
    Category (<a href="models.md#GroupCategory" title="GroupCategory">GroupCategory</a>),
    ParentGroup (<a href="models.md#ParentGroupReference" title="ParentGroupReference">ParentGroupReference</a> optional) <i>Omitted if no parent group</i>,
-   CustomProperties (<a href="models.md#CustomProperty" title="CustomProperty">CustomProperty</a>) <i>Omitted if no Custom properties</i>
+   ExtendedProperties (<a href="models.md#ExtendedProperty" title="ExtendedProperty">ExtendedProperty</a>) <i>Omitted if no Extended properties</i>
 }
 </pre>
 
@@ -212,11 +212,11 @@ ParentGroupReference{
 }
 </pre>
 
-CustomProperty
+ExtendedProperty
 -------------
 
 <pre>
-CustomProperty{
+ExtendedProperty{
    Name (string),
    Value (string)
 }
@@ -234,7 +234,7 @@ FullGroup{
    LifespanUntil (date?),
    Category (<a href="models.md#GroupCategory" title="GroupCategory">GroupCategory</a>),
    ParentGroup (<a href="models.md#ParentGroupReference" title="ParentGroupReference">ParentGroupReference</a> optional) <i>Referenced groups can be found in GroupsData.Groups or GroupsData.ParentGroups. Omitted if no parent group</i>, 
-   CustomProperties (<a href="models.md#CustomProperty" title="CustomProperty">CustomProperty</a>) <i>Omitted if no Custom properties</i>,
+   ExtendedProperties (<a href="models.md#ExtendedProperty" title="ExtendedProperty">ExtendedProperty</a>) <i>Omitted if no Extended properties</i>,
    CourseDefinition (CourseDefinitionReference optional) <i>Omitted if the group does not reference a CourseDefinition. The course definition can be found in GroupsData.ReferenceData</i>,
    StaffGroupMembers (Array[<a href="models.md#GroupStaffMember" title="GroupStaffMember">GroupStaffMember</a>]),
    StudentGroupMembers (Array[<a href="models.md#GroupStudent" title="GroupStudent">GroupStudent</a>])

@@ -187,7 +187,7 @@ For sake of brevity these are only partial results intended to give an overview 
                             "Id": 1
                         }
                     },
-                    "CustomProperties": [
+                    "ExtendedProperties": [
                         {
                             "Name": "MYh Utbildningsnummer",
                             "Value": "YH12345-2021-1"

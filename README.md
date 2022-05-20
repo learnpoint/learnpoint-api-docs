@@ -53,7 +53,7 @@ Where JSON data may be omitted it is noted in the model descriptions. Possible n
 * [Group](models.md#Group)
 * [GroupCategory](models.md#GroupCategory)
 * [ParentGroupReference](models.md#ParentGroupReference)
-* [CustomProperty](models.md#CustomProperty)
+* [ExtendedProperty](models.md#ExtendedProperty)
 * [FullGroup](models.md#FullGroup)
 * [GroupStaffMember](models.md#GroupStaffMember)
 * [GroupStudent](models.md#GroupStudent)
@@ -162,7 +162,7 @@ VERSION HISTORY
 * Added Phone2 (string?) to models StaffMember and FullStaffMember.
   * New scope for Phone2: learnpointbulkapi.phone2.read
 * Added StaffFunctions to FullStaffMember
-* Added CustomProperties to Group and FullGroup
+* Added ExtendedProperties to Group and FullGroup
 * Added Points to CourseDefinition
 * Added Subject to CourseDefinition
 
