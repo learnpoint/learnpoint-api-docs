@@ -75,7 +75,6 @@ Where JSON data may be omitted it is noted in the model descriptions. Possible n
 
 * [CourseDefinition](models.md#CourseDefinition)
 * [CourseDefinitionReference](models.md#CourseDefinitionReference)
-* [Subject](models.md#Subject)
 
 ### General models
 * [ApiError](models.md#ApiError)
@@ -164,7 +163,6 @@ VERSION HISTORY
 * Added StaffFunctions to FullStaffMember
 * Added ExtendedProperties to Group and FullGroup
 * Added Points to CourseDefinition
-* Added Subject to CourseDefinition
 
 ### ApiVersion 2.6
 

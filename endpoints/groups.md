@@ -461,12 +461,7 @@ For sake of brevity these are only partial results intended to give an overview 
                     "Code": "EK15_FEK",
                     "Name": "Företagsekonomi",
                     "IsInternship": false,
-                    "Points": 30,
-                    "Subject": {
-                        "Id": 1,
-                        "Code": "EK",
-                        "Name": "Ekonomi"
-                    }
+                    "Points": 30
                 }
             ]
         }

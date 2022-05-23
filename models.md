@@ -392,8 +392,7 @@ CourseDefinition{
    Code (string),
    Name (string),
    IsInternship (boolean),
-   Points (int),
-   Subject (<a href="models.md#Subject" title="Subject">Subject</a> )
+   Points (int)
 }
 </pre>
 
@@ -403,17 +402,6 @@ CourseDefinitionReference
 <pre>
 CourseDefinitionReference{
    Id (int)
-}
-</pre>
-
-Subject
-----------------
-
-<pre>
-Subject{
-   Id (int),
-   Code (string),
-   Name (string)
 }
 </pre>
 
