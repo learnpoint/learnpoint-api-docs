@@ -1,4 +1,4 @@
-LearnPoint Bulk API v2.6
+LearnPoint Bulk API v2.7
 ======================
 
 LearnPoint Bulk API is an HTTP based, REST-like API. Its primary purpose is to make LearnPoint data accessible to other applications. These applications can use the data to populate other systems for e.g. scheduling, resource planning or intranet access.
@@ -53,6 +53,7 @@ Where JSON data may be omitted it is noted in the model descriptions. Possible n
 * [Group](models.md#Group)
 * [GroupCategory](models.md#GroupCategory)
 * [ParentGroupReference](models.md#ParentGroupReference)
+* [ExtendedProperty](models.md#ExtendedProperty)
 * [FullGroup](models.md#FullGroup)
 * [GroupStaffMember](models.md#GroupStaffMember)
 * [GroupStudent](models.md#GroupStudent)
@@ -78,6 +79,17 @@ Where JSON data may be omitted it is noted in the model descriptions. Possible n
 ### General models
 * [ApiError](models.md#ApiError)
 
+SCOPES
+----------
+* learnpointbulkapi.read
+  * Access to Learnpoint Bulk API
+* learnpointbulkapi.mobilephone.read
+  * Access to mobile phone numbers for students and staff
+* learnpointbulkapi.phone2.read
+  * Access to Phone2 number for staff
+* learnpointbulkapi.homeaddress.read
+  * Access to home address for students
+
 SAMPLE CODE
 -----------
 
@@ -99,7 +111,7 @@ namespace SimpleSample
         {
             string clientId = "yhskolan.apiclient";
             string clientSecret = "xxxxxxxxxxxxxxxxxx";
-            string requestedScopes = "learnpointbulkapi.read learnpointbulkapi.mobilephone.read learnpointbulkapi.homeaddress.read";
+            string requestedScopes = "learnpointbulkapi.read learnpointbulkapi.mobilephone.read learnpointbulkapi.phone2.read learnpointbulkapi.homeaddress.read";
             string tenantIdentifier = "yhskolan";
 
             //Get Access token
@@ -143,6 +155,14 @@ namespace SimpleSample
 
 VERSION HISTORY
 ---------------
+
+### ApiVersion 2.7
+
+* Added Phone2 (string?) to models StaffMember and FullStaffMember.
+  * New scope for Phone2: learnpointbulkapi.phone2.read
+* Added StaffFunctions to FullStaffMember
+* Added ExtendedProperties to Group and FullGroup
+* Added Points to CourseDefinition
 
 ### ApiVersion 2.6
 

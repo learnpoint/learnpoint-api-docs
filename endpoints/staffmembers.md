@@ -21,7 +21,7 @@ For sake of brevity these are only partial results intended to give an overview 
 
 ```json
 {
-    "ApiVersion": "2.6.20210517102646",
+    "ApiVersion": "2.7.20210517102646",
     "Data": {
         "StaffMembers": [
             {
@@ -35,6 +35,11 @@ For sake of brevity these are only partial results intended to give an overview 
                 "Email2": null,
                 "MobilePhone": "073-XXXXXX",
                 "MayExposeMobilePhoneToStudents": true,
+                "Phone2": "074-XXXXXX",
+                "MayExposePhone2ToStudents": true,
+                "StaffFunctions": [
+                    "Administratör"
+                ],
                 "Groups": [
                     {
                         "Group": {
@@ -176,12 +181,18 @@ For sake of brevity these are only partial results intended to give an overview 
                         "Group": {
                             "Id": 1
                         }
-                    }
+                    },
+                    "ExtendedProperties": [
+                        {
+                            "Name": "MYh Utbildningsnummer",
+                            "Value": "YH12345-2021-1"
+                        }
+                    ]
                 },
                 {
                     "Id": 24,
-                    "Name": "Att arbeta i näringslivet",
-                    "Code": "EK15_AAN",
+                    "Name": "Företagsekonomi",
+                    "Code": "EK15_FEK",
                     "LifespanFrom": "2016-01-31T23:00:00Z",
                     "LifespanUntil": "2016-02-29T22:59:00Z",
                     "Category": {

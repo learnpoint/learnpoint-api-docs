@@ -187,7 +187,8 @@ Group{
    LifespanFrom (date?),
    LifespanUntil (date?),
    Category (<a href="models.md#GroupCategory" title="GroupCategory">GroupCategory</a>),
-   ParentGroup (<a href="models.md#ParentGroupReference" title="ParentGroupReference">ParentGroupReference</a> optional) <i>Omitted if no parent group</i>
+   ParentGroup (<a href="models.md#ParentGroupReference" title="ParentGroupReference">ParentGroupReference</a> optional) <i>Omitted if no parent group</i>,
+   ExtendedProperties (<a href="models.md#ExtendedProperty" title="ExtendedProperty">ExtendedProperty</a>) <i>Omitted if no Extended properties</i>
 }
 </pre>
 
@@ -211,6 +212,16 @@ ParentGroupReference{
 }
 </pre>
 
+ExtendedProperty
+-------------
+
+<pre>
+ExtendedProperty{
+   Name (string),
+   Value (string)
+}
+</pre>
+
 FullGroup
 ---------
 
@@ -222,7 +233,9 @@ FullGroup{
    LifespanFrom (date?),
    LifespanUntil (date?),
    Category (<a href="models.md#GroupCategory" title="GroupCategory">GroupCategory</a>),
-   ParentGroup (<a href="models.md#ParentGroupReference" title="ParentGroupReference">ParentGroupReference</a> optional) <i>Referenced groups can be found in GroupsData.Groups or GroupsData.ParentGroups. Omitted if no parent group, CourseDefinition (CourseDefinitionReference optional) Omitted if the group does not reference a CourseDefinition. The course definition can be found in GroupsData.ReferenceData</i>,
+   ParentGroup (<a href="models.md#ParentGroupReference" title="ParentGroupReference">ParentGroupReference</a> optional) <i>Referenced groups can be found in GroupsData.Groups or GroupsData.ParentGroups. Omitted if no parent group</i>, 
+   ExtendedProperties (<a href="models.md#ExtendedProperty" title="ExtendedProperty">ExtendedProperty</a>) <i>Omitted if no Extended properties</i>,
+   CourseDefinition (CourseDefinitionReference optional) <i>Omitted if the group does not reference a CourseDefinition. The course definition can be found in GroupsData.ReferenceData</i>,
    StaffGroupMembers (Array[<a href="models.md#GroupStaffMember" title="GroupStaffMember">GroupStaffMember</a>]),
    StudentGroupMembers (Array[<a href="models.md#GroupStudent" title="GroupStudent">GroupStudent</a>])
 }
@@ -277,10 +290,6 @@ GroupRoleReference{
 }
 </pre>
 
-
-
-
-
 StaffMembersApiResponse
 -----------------------
 
@@ -326,7 +335,9 @@ StaffMember{
    Email (string?),
    Email2 (string?),
    MobilePhone (string? optional) <i>Omitted if the client is not authorized for MobilePhone read access</i>,
-   MayExposeMobilePhoneToStudents (boolean optional) <i>Omitted if the client is not authorized for MobilePhone read access</i>
+   MayExposeMobilePhoneToStudents (boolean optional) <i>Omitted if the client is not authorized for MobilePhone read access</i>,
+   Phone2 (string? optional) <i>Omitted if the client is not authorized for Phone2 read access</i>,
+   MayExposePhone2ToStudents (boolean optional) <i>Omitted if the client is not authorized for Phone2 read access</i>,     
 }
 </pre>
 
@@ -345,6 +356,9 @@ FullStaffMember{
    Email2 (string?),
    MobilePhone (string? optional) <i>Omitted if the client is not authorized for MobilePhone read access</i>,
    MayExposeMobilePhoneToStudents (boolean optional) <i>Omitted if the client is not authorized for MobilePhone read access</i>,
+   Phone2 (string? optional) <i>Omitted if the client is not authorized for Phone2 read access</i>,
+   MayExposePhone2ToStudents (boolean optional) <i>Omitted if the client is not authorized for Phone2 read access</i>,   
+   StaffFunctions (Array[string]),
    Groups (Array[<a href="models.md#StaffMemberGroup" title="StaffMemberGroup">StaffMemberGroup</a>])
 }
 </pre>
@@ -377,7 +391,8 @@ CourseDefinition{
    Id (int),
    Code (string),
    Name (string),
-   IsInternship (boolean)
+   IsInternship (boolean),
+   Points (int)
 }
 </pre>
 

@@ -21,7 +21,7 @@ For sake of brevity these are only partial results intended to give an overview 
 
 ```json
 {
-    "ApiVersion": "2.6.20210517102646",
+    "ApiVersion": "2.7.20210517102646",
     "Data": {
         "Groups": [
             {
@@ -106,8 +106,8 @@ For sake of brevity these are only partial results intended to give an overview 
             },
             {
                 "Id": 24,
-                "Name": "Att arbeta i näringslivet",
-                "Code": "EK15_AAN",
+                "Name": "Företagsekonomi",
+                "Code": "EK15_FEK",
                 "LifespanFrom": "2016-01-31T23:00:00Z",
                 "LifespanUntil": "2016-02-29T22:59:00Z",
                 "Category": {
@@ -225,6 +225,12 @@ For sake of brevity these are only partial results intended to give an overview 
                         "Id": 1
                     }
                 },
+                "ExtendedProperties": [
+                    {
+                        "Name": "MYh Utbildningsnummer",
+                        "Value": "YH12345-2021-1"
+                    }
+                ],
                 "StaffGroupMembers": [
                     {
                         "StaffMember": {
@@ -313,7 +319,9 @@ For sake of brevity these are only partial results intended to give an overview 
                     "Email": "daniel.gidlof@viaecole.se",
                     "Email2": null,
                     "MobilePhone": "073-XXXXXX",
-                    "MayExposeMobilePhoneToStudents": true
+                    "MayExposeMobilePhoneToStudents": true,
+                    "Phone2": "074-XXXXXX",
+                    "MayExposePhone2ToStudents": true     
                 },
                 {
                     "Id": 2,
@@ -325,7 +333,9 @@ For sake of brevity these are only partial results intended to give an overview 
                     "Email": "martin.vehmas@viaecole.se",
                     "Email2": null,
                     "MobilePhone": null,
-                    "MayExposeMobilePhoneToStudents": true
+                    "MayExposeMobilePhoneToStudents": true,
+                    "Phone2": null,
+                    "MayExposePhone2ToStudents": true                    
                 },
                 {
                     "Id": 3,
@@ -337,7 +347,9 @@ For sake of brevity these are only partial results intended to give an overview 
                     "Email": "anders.andersson@yh-skolan.se",
                     "Email2": null,
                     "MobilePhone": null,
-                    "MayExposeMobilePhoneToStudents": false
+                    "MayExposeMobilePhoneToStudents": false,
+                    "Phone2": null,
+                    "MayExposePhone2ToStudents": false  
                 }
             ],
             "Students": [
@@ -446,9 +458,10 @@ For sake of brevity these are only partial results intended to give an overview 
             "CourseDefinitions": [
                 {
                     "Id": 1,
-                    "Code": "EK15_AAN",
-                    "Name": "Att arbeta i näringslivet",
-                    "IsInternship": false
+                    "Code": "EK15_FEK",
+                    "Name": "Företagsekonomi",
+                    "IsInternship": false,
+                    "Points": 30
                 }
             ]
         }
