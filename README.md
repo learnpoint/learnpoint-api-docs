@@ -159,7 +159,9 @@ VERSION HISTORY
 ### ApiVersion 2.8
 
 * Added UserId to models Student, FullStudent, StaffMember and FullStaffMember.
-  * Preparation for migration to version 3 of Learnpoint Bulk API.
+  * Preparation for migration to Learnpoint API v3.
+* Added ProgramEnrollmentId to StudentEducationPlan
+  * Preparation for migration to Learnpoint API v3. 
 
 ### ApiVersion 2.7
 
