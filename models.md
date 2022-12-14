@@ -99,6 +99,7 @@ StudentEducationPlan
 <pre>
 StudentEducationPlan{
    Id (int),
+   ProgramEnrollmentId (int),
    Parts (Array[<a href="models.md#EducationPlan" title="EducationPlan">EducationPlan</a>]),
    State (<a href="models.md#StudentEducationPlanState" title="StudentEducationPlanState">StudentEducationPlanState</a>)
 }
