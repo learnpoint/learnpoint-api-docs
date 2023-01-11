@@ -37,6 +37,7 @@ Student
 <pre>
 Student{
    Id (int),
+   UserId (int),
    NationalRegistrationNumber (string?),
    FirstName (string),
    LastName (string),
@@ -67,6 +68,7 @@ FullStudent
 <pre>
 FullStudent{
    Id (int),
+   UserId (int),
    NationalRegistrationNumber (string?),
    FirstName (string),
    LastName (string),
@@ -97,6 +99,7 @@ StudentEducationPlan
 <pre>
 StudentEducationPlan{
    Id (int),
+   ProgramEnrollmentId (int),
    Parts (Array[<a href="models.md#EducationPlan" title="EducationPlan">EducationPlan</a>]),
    State (<a href="models.md#StudentEducationPlanState" title="StudentEducationPlanState">StudentEducationPlanState</a>)
 }
@@ -327,6 +330,7 @@ StaffMember
 <pre>
 StaffMember{
    Id (int),
+   UserId (int),
    NationalRegistrationNumber (string?),
    Signature (string?),
    FirstName (string?),
@@ -347,6 +351,7 @@ FullStaffMember
 <pre>
 FullStaffMember{
    Id (int),
+   UserId (int),
    NationalRegistrationNumber (string?),
    Signature (string?),
    FirstName (string?),

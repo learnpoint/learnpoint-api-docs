@@ -1,4 +1,4 @@
-LearnPoint Bulk API v2.7
+LearnPoint Bulk API v2.8
 ======================
 
 LearnPoint Bulk API is an HTTP based, REST-like API. Its primary purpose is to make LearnPoint data accessible to other applications. These applications can use the data to populate other systems for e.g. scheduling, resource planning or intranet access.
@@ -155,6 +155,13 @@ namespace SimpleSample
 
 VERSION HISTORY
 ---------------
+
+### ApiVersion 2.8
+
+* Added UserId to models Student, FullStudent, StaffMember and FullStaffMember.
+  * Preparation for migration to Learnpoint API v3.
+* Added ProgramEnrollmentId to StudentEducationPlan
+  * Preparation for migration to Learnpoint API v3. 
 
 ### ApiVersion 2.7
 
