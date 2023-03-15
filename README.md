@@ -1,11 +1,13 @@
 LearnPoint Bulk API v2.8
 ======================
 
-## DEPRECATED. End of life: 2023-10-31
+## DEPRECATED
+
+### End of life: 2023-10-31
 
 Version 2 of Learnpoint API is deprecated and will be closed down 2023-10-31.
 
-## Migrate to version 3
+### Migrate to version 3
 
 Information about changes: [Migration from Learnpoint Bulk API to Learnpoint API v3](v2-v3.md)
 
