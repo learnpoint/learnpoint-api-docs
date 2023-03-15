@@ -1,5 +1,16 @@
-LearnPoint Bulk API v2.8
+LearnPoint Bulk API v2.8 DEPRECATED
 ======================
+
+# End of life: 2023-10-31
+
+Version 2 of Learnpoint API is deprecated and will be closed down 2023-10-31.
+
+# Migrate to version 3
+
+Information about changes: [Migration from Learnpoint Bulk API to Learnpoint API v3](v2-v3.md)
+
+Documentation for Learnpoint API v3: [https://api.learnpoint.se/swagger](https://api.learnpoint.se/swagger)
+
 
 LearnPoint Bulk API is an HTTP based, REST-like API. Its primary purpose is to make LearnPoint data accessible to other applications. These applications can use the data to populate other systems for e.g. scheduling, resource planning or intranet access.
 
