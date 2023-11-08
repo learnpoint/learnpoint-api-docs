@@ -5,9 +5,7 @@ LearnPoint Bulk API is an HTTP based, REST-like API. Its primary purpose is to m
 
 ## DEPRECATED
 
-### End of life: 2023-10-31
-
-Learnpoint Bulk API version 2 is deprecated and will be closed down 2023-10-31.
+Learnpoint Bulk API version 2 is deprecated.
 
 ### Migrate to Learnpoint API version 3
 
