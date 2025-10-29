@@ -11,7 +11,7 @@ Learnpoint Bulk API version 2 is deprecated.
 
 Information about changes: [Migration from Learnpoint Bulk API to Learnpoint API v3](v2-v3.md)
 
-Documentation for Learnpoint API v3: [https://api.learnpoint.se/swagger](https://api.learnpoint.se/swagger)
+Documentation for Learnpoint API v3: [https://api.learnpoint.se/docs](https://api.learnpoint.se/docs)
 
 AUTHENTICATION
 --------------
